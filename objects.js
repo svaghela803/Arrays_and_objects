@@ -47,7 +47,9 @@ console.log("The cat is a " + catBreed);
  * Q3. It's the tortoise's birthday! Add one to her current age.
  */
 
-// console.log(tortoise)
+tortoise.age = "8";
+
+console.log(tortoise)
 
 
 
@@ -55,9 +57,9 @@ console.log("The cat is a " + catBreed);
  * Q4. How many different colours is Poppy?
  */
 
-dogColourCount = null;
+dogColourCount = dog.colours.length;
 
-// console.log("The dog has " + dogColourCount + " different colours");
+console.log("The dog has " + dogColourCount + " different colours");
 
 
 

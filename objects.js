@@ -19,8 +19,16 @@ cat = {
 tortoise = {
     name: "Ella",
     age: 7,
+    favouriteFood: "Dandelion",
     breed: "Eastern Hermanns",
     colours: ["yellow", "brown", "black"]
+}
+
+parrot = {
+    name: "Lucky",
+    age: 12,
+    breed: "African Grey",
+    colours: ["grey", "white"]
 }
 
 
@@ -62,14 +70,12 @@ dogColourCount = dog.colours.length;
 console.log("The dog has " + dogColourCount + " different colours");
 
 
-
 /**
  * Q5. I've just bought a 12-year-old African Grey parrot called Lucky. Create an object for her.
  */
 
-parrot = null;
 
-// console.log(parrot);
+console.log(parrot);
 
 
 
@@ -77,7 +83,8 @@ parrot = null;
  * Q6. Ella's favourite food is dandelion, add this information to her object
  */
 
-// console.log(tortoise);
+
+console.log(tortoise);
 
 
 
@@ -85,7 +92,13 @@ parrot = null;
  * Q7. What's the combined age of all the pets?
  */
 
-totalPetAge = null;
+// const values = Object.values(dog.age, cat.age, tortoise.age, parrot.age);
+
+// // const sum = values.reduce((accumulator, value) => {
+// //     return accumulator + value;
+// // });
+
+// totalPetAge = sum;
 
 // console.log("The total age of the pets is " + totalPetAge);
 
@@ -95,4 +108,7 @@ totalPetAge = null;
  * Q8. It's turns out that Morris isn't a European Shorthair. We don't actually know his real breed, so remove that key from his object
  */
 
-// console.log(cat);
+
+delete cat.breed;
+
+console.log(cat);

@@ -59,13 +59,13 @@ console.log(stations);
 
 
 
-// /**
-//  * Q6.
-//  * How did Leeds get on there? Better remove it.
-//  */
+/**
+ * Q6.
+ * How did Leeds get on there? Better remove it.
+ */
 
-// stations.splice(4, 1)
-// console.log(stations);
+stations.splice(4, 1)
+console.log(stations);
 
 
 

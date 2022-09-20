@@ -15,26 +15,26 @@ console.log(stations);
 
 
 
-// /**
-//  * Q2.
-//  * It doesn't go as far as Dundee either, so remove it from the start of the array.
-//  */
+/**
+ * Q2.
+ * It doesn't go as far as Dundee either, so remove it from the start of the array.
+ */
 
-// stations.shift();
+stations.shift();
 
-// console.log(stations);
-
-
-
-// /**
-//  * Q3.
-//  * How many stations are on the line?
-//  */
+console.log(stations);
 
 
-// stationCount = stations.length;
 
-// console.log("There are " + stationCount + " stations.");
+/**
+ * Q3.
+ * How many stations are on the line?
+ */
+
+
+stationCount = stations.length;
+
+console.log("There are " + stationCount + " stations.");
 
 
 
